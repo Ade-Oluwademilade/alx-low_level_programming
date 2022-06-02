@@ -1,12 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- *   main - Prints out a string to stdout.
- *   
- *     Description: this prins out string
- *     
- *       Return: 0 if success.
+ * main - Prints put a stringto stdout.
+ *
+ * Description: This print out a string
+ *
+ * Returns: 0 if success.
  **/
 int main(void)
 {
-	        puts("\"Programming is like building a multilingual puzzle");
-		        return (0);
+	puts("\""Programming is like building a multilingual puzzle");
+	return 0;
+
