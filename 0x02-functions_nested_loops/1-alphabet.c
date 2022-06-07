@@ -1,18 +1,20 @@
 #include "main.h"
 
 /**
- * print_alphabet - entry
+ * print_alphabet - entry point
+ * Return: 0
  *
- * return value is 0
  */
+
 void print_alphabet(void)
 {
-	char alphabet = 'a';
-	
-	while (alphabet <= 'z')
+	char alpha = 'a';
+
+	while (alpha <= 'z')
 	{
-		_putchar(alphabet);
-		alphabet++;
+		_putchar(alpha);
+		alpha++;
+
 	}
 	_putchar('\n');
 }
