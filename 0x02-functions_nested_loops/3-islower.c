@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower - Short description
+ * _islower - Short description, single line
  * @c: contains value that will be compared
  *
  * Return 1 if true and 0 otherwise
