@@ -1,4 +1,4 @@
-i#iclude <stdio.h>
+#include <stdio.h>
 /**
  * main - main
  * Return: value
