@@ -5,12 +5,13 @@
  */
 int main(void)
 {
-	long int a, b, c, f;
+	long int i, b, c, f;
+
 	b = 1;
 
 	c = 2;
 
-	for (a = 1; a <= 50; a++)
+	for (i = 1; i <= 50; ++i)
 	{
 		if (b != 20365011074)
 		{
