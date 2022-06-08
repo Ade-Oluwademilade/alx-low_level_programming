@@ -6,9 +6,9 @@
 int main(void)
 {
 	long int a, b, c, f;
-	a = 1;
+	b = 1;
 
-	b = 2;
+	c = 2;
 
 	for (a = 1; a <= 50; a++)
 	{
