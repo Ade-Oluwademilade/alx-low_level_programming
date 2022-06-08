@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	long int a, b, c, d;
+	long int a, b, c, f;
 	a = 1;
 
 	b = 2;
@@ -14,15 +14,15 @@ int main(void)
 	{
 		if (b != 20365011074)
 		{
-			printf("%dd, ", b);
+			printf("%fd, ", b);
 		}
 		else
 		{
-			printf("%dd\n", b);
+			printf("%fd\n", b);
 		}
-		d = b + c;
+		f = b + c;
 		b = c;
-		c = d;
+		c = f;
 	}
 	return (0);
 }
