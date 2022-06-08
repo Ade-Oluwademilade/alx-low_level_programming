@@ -18,7 +18,7 @@ int main(void)
 		{
 			m = m + j;
 		}
-		i = j + k;
+		l = j + k;
 		j = k;
 		k = l;
 	}
