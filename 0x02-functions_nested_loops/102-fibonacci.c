@@ -5,25 +5,25 @@
  */
 int main(void)
 {
-	long int i, b, c, f;
+	long int i, j, k, l;
 
-	b = 1;
+	j = 1;
 
-	c = 2;
+	k = 2;
 
 	for (i = 1; i <= 50; ++i)
 	{
-		if (b != 20365011074)
+		if (j != 20365011074)
 		{
-			printf("%fd, ", b);
+			printf("%ld, ", j);
 		}
 		else
 		{
-			printf("%fd\n", b);
+			printf("%ld\n", j);
 		}
-		f = b + c;
-		b = c;
-		c = f;
+		l = j + k;
+		j = k;
+		k = l;
 	}
 	return (0);
 }
