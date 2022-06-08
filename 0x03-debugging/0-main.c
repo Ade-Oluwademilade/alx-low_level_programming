@@ -3,6 +3,7 @@
  * main - Tests function that prints integeri is positive or negative
  * Return: 0
  */
+
 int main(void)
 {
 	int i;
