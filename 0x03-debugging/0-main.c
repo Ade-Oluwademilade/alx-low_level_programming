@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Tests function that prints integeri is positive or negative
+ * main - tests function that prints integeri is positive or negative
  * Return: 0
  */
 
