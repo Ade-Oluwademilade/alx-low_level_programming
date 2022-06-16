@@ -1,28 +1,28 @@
 #include "main.h"
 /**
  * rot13 - encodes a string using rot13
- * @s: input string.
+ * @a: input string.
  * Return: the pointer to dest.
  */
 
-char *rot13(char *s)
+char *rot13(char *a)
 {
 	int count = 0, i;
 	char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char rot13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
-	while (*(s + count) != '\0')
+	while (*(a + count) != '\0')
 	{
 		for (i = 0; i < 52; i++)
 		{
-			if (*(s + count) == alphabet[i])
+			if (*(a + count) == alphabet[i])
 			{
-				*(s + count) = rot13[i];
-				breakl
+				*(a + count) = rot13[i];
+				break;
 			}
 		}
 		count++;
 	}
 
-	return (s);
+	return (a);
 }
